@@ -157,13 +157,13 @@ if(tieneFormato):
     esAsociativo = verificarAsociatividad(matriz)
     ##print(esLatino, todosCumplenNeutro, neutro, esAsociativo)
     if(esLatino):
-        print("es Cuadro Latino ni grupo")
+        print("es Cuadro Latino")
         if(esAsociativo and todosCumplenNeutro):
             print("es grupo")
         else: 
             print("no es grupo")
     else:
-        print("no es Latino")
+        print("no es Latino ni grupo")
 else:
     print('tabla invalida')
 
